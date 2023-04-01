@@ -1,0 +1,20 @@
+{
+    "verbose-log": true,
+    "smtp-data-limit": 104857600,
+    "smtp-timeout": 60,
+    "smtp-max-recipients": 50,
+    "routes": [
+        {
+            "port-in": 3587,
+            "port-out": 587,
+            "destination": "smtp.localhost",
+            "type": "smtp"
+        },
+        {
+            "port-in": 3995,
+            "port-out": 995,
+            "destination": "pop3.localhost",
+            "type": "tcp"
+        }
+    ]
+}
