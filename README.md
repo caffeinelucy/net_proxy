@@ -4,7 +4,7 @@
 a friend was in need of a proxy, for pop3 and smtp. so this is a network proxy for smtp, generic tcp but no http. input is plain, output tls. enjoy.
 
 ## why no http?
-because http proxies exist on mass. in fact if you look for "smtp reverse proxy" dozens of http proxies show up and no single smtp one.
+because http proxies exist on mass. in fact if you look for "smtp proxy" dozens of http proxies show up and no single smtp one.
 
 ## what does it do?
 for every "route" defined in the config file, it creates a little server that listens for incomming connections and creates a sort of forwarding worker connection. the incomming traffic is supposed to be unencrypted while the outgoing traffic will be tls encrypted.
