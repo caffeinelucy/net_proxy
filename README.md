@@ -27,4 +27,6 @@ routes is an array of routes (roaring applause from the audience reading this)
 where each route defines a server listening to "port-in", and forwards the traffic to "destination" at "port-out", using either type "smtp" or "tcp".
 again, incomming traffic is plain, outgoing traffic is tls encrypted.
 
+
+## disclaimer
 this is highly questionable MacGuffin I wrote as a fun little go exercise a while ago and decided to put up here. so if you *need* it, that means you're running insecure or outdated (and therefore insecure) software but if you feel like switching to something else would be a huge hussle, feel free to use this software provided as is :) and have fun
